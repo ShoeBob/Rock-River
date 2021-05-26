@@ -8,31 +8,65 @@
         <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
         <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" />
         <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css" />
+        <link rel="stylesheet" href="css/styles.css" />
 
         <title>About the Company</title>
     </head>
     <body>
         
+        <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+            <a class="navbar-brand" href="#">RR Icon</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="#">Company</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="services.html">Services</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact Us</a>
+                    </li>
+                </ul>
+                <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                </form>
+            </div>
+        </nav>
+      
+        <header class="jumbotron pt-6">
+          <h1 class="display-3 text-center">Rock River Tech Services</h1>
+          <h3 class="text-center">Where solutions flow</h3>
+        </header>
+
         <footer>
             <div>
                 <h5>Links</h5>
                 <ul>
                     <li><a href="index.html">Home</a></li>
-                    <li><a href="#">About</a></li>
+                    <li><a href="#">Company</a></li>
                     <li><a href="services.html">Services</a></li>
                     <li><a href="contact.html">Contact</a></li>
                 </ul>
             </div>
             <div>
                 <h5>Social</h5>
-                <a href="http://instagram.com/"><i class="fa fa-instagram"></i></a>
-                <a href="http://facebook.com/"><i class="fa fa-facebook"></i></a>
-                <a href="http://twitter.com/"><i class="fa fa-twitter"></i></a>
-                <a href="http://youtube.com/"><i class="fa fa-youtube"></i></a>
+                <a class="btn btn-social-icon btn-instagram" href="http://instagram.com/"><i class="fa fa-instagram"></i></a>
+                <a class="btn btn-social-icon btn-facebook" href="http://facebook.com/"><i class="fa fa-facebook"></i></a>
+                <a class="btn btn-social-icon btn-twitter" href="http://twitter.com/"><i class="fa fa-twitter"></i></a>
+                <a class="btn btn-social-icon btn-google" href="http://youtube.com/"><i class="fa fa-youtube"></i></a>
             </div>
             <div>
-                <i class="fa fa-phone fa-lg text-primary"></i> 1-406-555-5309<br />
-                <i class="fa fa-envelope fa-lg text-primary"></i> rrtech@rrtech.com
+                <a role="button" class="btn btn-link" href="tel:+14065555309"><i class="fa fa-phone"></i> 1-406-555-5309</a><br />
+                <a role="button" class="btn btn-link" href="mailto:rrtech@rrtech.com"><i class="fa fa-envelope-o"></i> rrtech@rrtech.com</a>
             </div>
         </footer>
 
@@ -41,4 +75,5 @@
         <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 
     </body>
+    
 </html>

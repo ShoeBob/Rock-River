@@ -15,48 +15,94 @@
     </head>
     <body>
         
-        <header class="jumbotron jumbotron-fluid"> -->
-            <div class="container">
-                <div class="row">
-                    <div class="col">
-                        <h1 class="text-center display-1">Rock River Tech Services</h1>
-                        <h2></h2>
-                    </div>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+        <a class="navbar-brand" href="#">RR Icon</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+    
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+             <li class="nav-item active">
+                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+             </li>
+             <li class="nav-item">
+                <a class="nav-link" href="company.html">Company</a>
+             </li>
+             <li class="nav-item">
+                <a class="nav-link" href="services.html">Services</a>
+             </li>
+             <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact Us</a>
+             </li>
+          </ul>
+          <!-- Add search item later when docs are added 5/25/2021 SS-->
+          <!-- <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+          </form> -->
+        </div>
+      </nav>
+  
+      <header class="jumbotron pt-6">
+        <h1 class="display-3 text-center">Rock River Tech Services</h1>
+        <h3 class="text-center">Where solutions flow</h3>
+      </header>
+
+      <div>
+          <h2 class="text-center">Services Available</h2>
+          <p class="text-center">What we offer to keep your business running</p>
+      </div>
+
+      <!-- Services Offered -->
+      <div class="container">
+          <div class="row">
+            <div class="col">
+              <p>Computers</p>
+              <img class="d-block w-50" src="img/computer.png" alt="Computer" />
+              <p>We will keep your computer running through broken hardware or viruses.  Please come in for honest service. </p>
+            </div>
+          </div>
+      </div>
+
+      <footer class="site-footer font-small pt-4">
+        <div class="container-fluid text-center text-md-left">
+            <div class="row justify-content-md-center">             
+                <div class="col col-lg-2">
+                  <h5 class="text-uppercase">Company Address</h5>
+                  <p>123 Yellow Road</br>Missoula, MT 59801</br>1-406-555-5309</p>
+                </div>
+                <hr class="clearfix w-100 d-md-none pb-3">
+                <div class="col-md-3">
+                  <!-- Space between items on footer -->
+                </div>
+                <div class="col col-lg-2">
+                  <h5 class="text-uppercase">Follow Us</h5>
+
+                  <ul class="list-unstyled list-inline">
+                    <li class="list-inline-item">
+                      <a class="btn btn-social-icon btn-instagram" href="http://instagram.com/"><i class="fa fa-instagram"></i></a>
+                    </li>
+                    <li class="list-inline-item">
+                      <a class="btn btn-social-icon btn-facebook" href="http://facebook.com/"><i class="fa fa-facebook"></i></a>
+                    </li>
+                    <li class="list-inline-item">
+                      <a class="btn btn-social-icon btn-twitter" href="http://twitter.com/"><i class="fa fa-twitter"></i></a>
+                    </li>
+                    <li class="list-inline-item">
+                      <a class="btn btn-social-icon btn-google" href="http://youtube.com/"><i class="fa fa-youtube"></i></a>
+                    </li>
+                  </ul>
                 </div>
             </div>
-        </header>
-        
-        <div>
-            <h2>Services Available</h2>
-            <p>What we offer to keep your business running</p>
         </div>
+      </footer>
 
-        <footer>
-            <div>
-                <h5>Links</h5>
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="company.html">About</a></li>
-                    <li><a href="services.html">Services</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                </ul>
-            </div>
-            <div>
-                <h5>Social</h5>
-                <a href="http://instagram.com/"><i class="fa fa-instagram"></i></a>
-                <a href="http://facebook.com/"><i class="fa fa-facebook"></i></a>
-                <a href="http://twitter.com/"><i class="fa fa-twitter"></i></a>
-                <a href="http://youtube.com/"><i class="fa fa-youtube"></i></a>
-            </div>
-            <div>
-                <i class="fa fa-phone fa-lg text-primary"></i> 1-406-555-5309<br />
-                <i class="fa fa-envelope fa-lg text-primary"></i> rrtech@rrtech.com
-            </div>
-        </footer>
-
+        <!-- Scripts -->
         <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
         <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
         <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 
     </body>
+
 </html>
