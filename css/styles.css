@@ -43,3 +43,8 @@ body {
     background-color: rgb(8, 8, 0);
     padding: 20px 0;
 }
+
+.row-content {
+    padding: 20px 0;
+    border-bottom: 1px ridge;
+    min-height: 100px; }
