@@ -11,5 +11,7 @@ $(document).ready(function() {
           $(".navbar").removeClass("bg-light");
         }
     });
- 
+    $("#scheduleButton").click(function(){
+        $("#scheduleModal").modal("show");
+    });
 });
